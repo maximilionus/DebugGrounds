@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="Debug Grounds">
+	<string name="FileVer">2.2</string>
+	<string name="AuthorName">MAXIMILI</string>
+	<colour name="DisplayCol">0, 255, 80</colour>
+	<varlist name="GlobalParams">
+		<float name="Grad">1</float>
+		<float name="Curv">1</float>
+		<float name="Water">1</float>
+		<float name="Salin">1</float>
+	</varlist>
+	<varlist name="RandOffset">
+		<int name="x">347</int>
+		<int name="y">7873</int>
+	</varlist>
+	<varlist name="MaterialDependencies">
+		<varlist>
+			<string name="MaterialName">std_pebbles</string>
+			<string name="MaterialFile">common\ground\std_pebbles.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">kuraev_grass_dry</string>
+			<string name="MaterialFile">kuraev_climate\data\Materials\kuraev_grass_dry.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">dgrounds_grass_dry</string>
+			<string name="MaterialFile">debuggrounds\data\Materials\debuggrounds_grass_dry.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">dgrounds_grass</string>
+			<string name="MaterialFile">debuggrounds\data\Materials\debuggrounds_grass.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">std_grass_steep</string>
+			<string name="MaterialFile">common\grass\std_grass_steep.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">std_cliffs</string>
+			<string name="MaterialFile">common\rock\std_cliffs.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">std_cliffs_steep</string>
+			<string name="MaterialFile">common\rock\std_cliffs_steep.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">std_snow</string>
+			<string name="MaterialFile">common\snow\std_snow.mat.xml</string>
+		</varlist>
+		<varlist>
+			<string name="MaterialName">debugg_sand</string>
+			<string name="MaterialFile">debuggrounds\data\Materials\debugg_sand.mat.xml</string>
+		</varlist>
+	</varlist>
+	<varlist name="LandTypeList">
+		<varlist name="Sand">
+			<bool name="Enabled">false</bool>
+			<colour name="DisplayCol">230, 230, 120</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.9</float>
+				<float name="Grad">-0.2</float>
+				<bool name="MinAltFlag">false</bool>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">10</float>
+				<float name="MaxAlt2">30</float>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">std_pebbles</string>
+		</varlist>
+		<varlist name="Pebbles">
+			<bool name="Enabled">false</bool>
+			<colour name="DisplayCol">175, 160, 131</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.82</float>
+				<float name="Grad">0.2</float>
+				<float name="Curv">0.1</float>
+				<bool name="MinAltFlag">false</bool>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">10</float>
+				<float name="MaxAlt2">30</float>
+			</varlist>
+			<int name="BlendRadius">2</int>
+			<string name="MaterialName">std_pebbles</string>
+		</varlist>
+		<varlist name="Coastal grass">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">160, 200, 90</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.8</float>
+				<bool name="MinAltFlag">true</bool>
+				<float name="MinAlt1">0</float>
+				<float name="MinAlt2">10</float>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">100</float>
+				<float name="MaxAlt2">200</float>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">kuraev_grass_dry</string>
+		</varlist>
+		<varlist name="Coastal grass (2)">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">150, 200, 80</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.79</float>
+				<float name="Grad">0.1</float>
+				<float name="Curv">0.1</float>
+				<bool name="MinAltFlag">true</bool>
+				<float name="MinAlt1">0</float>
+				<float name="MinAlt2">100</float>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">200</float>
+				<float name="MaxAlt2">300</float>
+			</varlist>
+			<varlist name="Noise">
+				<varlist name="Gen1">
+					<float name="Amp">0.05</float>
+					<float name="Freq">1</float>
+					<int name="nOct">1</int>
+				</varlist>
+				<int name="RandKey">14894</int>
+			</varlist>
+			<varlist name="ColMod">
+				<bool name="Enabled">true</bool>
+				<float name="r">0.9</float>
+				<float name="g">0.95</float>
+				<float name="b">0.9</float>
+			</varlist>
+			<int name="BlendRadius">0</int>
+			<string name="MaterialName">dgrounds_grass_dry</string>
+		</varlist>
+		<varlist name="Grass">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">140, 195, 80</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.8</float>
+				<bool name="MinAltFlag">true</bool>
+				<float name="MinAlt1">0</float>
+				<float name="MinAlt2">200</float>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">1000</float>
+				<float name="MaxAlt2">1400</float>
+			</varlist>
+			<varlist name="Noise">
+				<varlist name="Gen1">
+					<float name="Amp">0.01</float>
+					<float name="Freq">0.5</float>
+					<int name="nOct">1</int>
+				</varlist>
+				<int name="RandKey">19841</int>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">dgrounds_grass</string>
+		</varlist>
+		<varlist name="Steep grass">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">140, 185, 70</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.75</float>
+				<float name="Grad">0.15</float>
+				<float name="Curv">0.2</float>
+				<bool name="MinAltFlag">true</bool>
+				<float name="MinAlt1">0</float>
+				<float name="MinAlt2">15</float>
+				<bool name="MaxAltFlag">false</bool>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">std_grass_steep</string>
+		</varlist>
+		<varlist name="Free Space">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">120, 120, 120</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0</float>
+				<bool name="MinAltFlag">false</bool>
+				<bool name="MaxAltFlag">false</bool>
+			</varlist>
+			<varlist name="Noise">
+				<varlist name="Gen1">
+					<float name="Amp">0.03</float>
+					<float name="Freq">1</float>
+					<int name="nOct">1</int>
+				</varlist>
+				<int name="RandKey">22063</int>
+			</varlist>
+			<varlist name="ColMod">
+				<bool name="Enabled">true</bool>
+				<float name="r">0.6</float>
+				<float name="g">0.6</float>
+				<float name="b">0.6</float>
+			</varlist>
+			<int name="BlendRadius">2</int>
+			<string name="MaterialName">std_cliffs</string>
+		</varlist>
+		<varlist name="Steep cliffs">
+			<bool name="Enabled">false</bool>
+			<colour name="DisplayCol">80, 80, 80</colour>
+			<varlist name="Params">
+				<float name="BaseProb">0.3</float>
+				<float name="Grad">1</float>
+				<bool name="MinAltFlag">false</bool>
+				<bool name="MaxAltFlag">false</bool>
+			</varlist>
+			<int name="BlendRadius">2</int>
+			<string name="MaterialName">std_cliffs_steep</string>
+		</varlist>
+		<varlist name="Snow">
+			<bool name="Enabled">false</bool>
+			<colour name="DisplayCol">255, 255, 255</colour>
+			<varlist name="Params">
+				<float name="BaseProb">1.3</float>
+				<float name="Grad">-0.2</float>
+				<float name="Curv">-0.5</float>
+				<bool name="MinAltFlag">true</bool>
+				<float name="MinAlt1">800</float>
+				<float name="MinAlt2">1400</float>
+				<bool name="MaxAltFlag">false</bool>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">std_snow</string>
+		</varlist>
+		<varlist name="water">
+			<bool name="Enabled">true</bool>
+			<colour name="DisplayCol">0, 0, 255</colour>
+			<varlist name="Params">
+				<float name="BaseProb">1</float>
+				<bool name="MinAltFlag">false</bool>
+				<bool name="MaxAltFlag">true</bool>
+				<float name="MaxAlt1">0</float>
+				<float name="MaxAlt2">0</float>
+			</varlist>
+			<int name="BlendRadius">-1</int>
+			<string name="MaterialName">debugg_sand</string>
+		</varlist>
+	</varlist>
+	<string name="AuthorsNotes">Copied from 'Temperate (basic)'</string>
+</varlist>

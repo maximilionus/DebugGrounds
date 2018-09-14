@@ -1,0 +1,7 @@
+R, G, B, Climate, Land type
+160, 200, 90, "Debug Grounds", "Coastal grass",
+150, 200, 80, "Debug Grounds", "Coastal grass (2)",
+140, 195, 80, "Debug Grounds", "Grass",
+140, 185, 70, "Debug Grounds", "Steep grass",
+120, 120, 120, "Debug Grounds", "Free Space",
+0, 0, 255, "Debug Grounds", "water",

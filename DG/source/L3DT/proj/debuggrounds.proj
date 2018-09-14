@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="ProjectData">
+	<int name="FileVersion">1</int>
+	<varlist name="MapInfo">
+		<varlist name="Terrain">
+			<int name="nx">2048</int>
+			<int name="ny">2048</int>
+			<float name="MinAlt">-363.539</float>
+			<float name="MaxAlt">999.996</float>
+			<float name="HorizScale">5</float>
+		</varlist>
+		<varlist name="Texture">
+			<int name="nx">8192</int>
+			<int name="ny">8192</int>
+		</varlist>
+		<bool name="WrapFlag">true</bool>
+	</varlist>
+	<varlist name="Maps">
+		<varlist name="DM">
+			<string name="Filename">debuggrounds_DM.dmf</string>
+			<string name="MapType">DM</string>
+		</varlist>
+		<varlist name="HF">
+			<string name="Filename">debuggrounds_HF.hfz</string>
+			<string name="MapType">HF</string>
+		</varlist>
+		<varlist name="WM">
+			<string name="Filename">debuggrounds_WM.wmf</string>
+			<string name="MapType">WM</string>
+		</varlist>
+		<varlist name="WS">
+			<string name="Filename">debuggrounds_WS.hfz</string>
+			<string name="MapType">HF</string>
+		</varlist>
+		<varlist name="AM">
+			<string name="Filename">AM\debuggrounds_AM.mmf</string>
+			<string name="MapType">AM</string>
+			<varlist name="MipMaps">
+				<int name="Step">4</int>
+				<int name="Max">8</int>
+			</varlist>
+		</varlist>
+		<varlist name="TN">
+			<string name="Filename">debuggrounds_TN.png</string>
+			<string name="MapType">TN</string>
+			<varlist name="MipMaps">
+				<int name="Step">4</int>
+				<int name="Max">8</int>
+			</varlist>
+		</varlist>
+		<varlist name="LM">
+			<string name="Filename">debuggrounds_LM.jpg</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+		<varlist name="SpecLM">
+			<string name="Filename">debuggrounds_SpecLM.png</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+		<varlist name="TX">
+			<string name="Filename">debuggrounds_TX.jpg</string>
+			<string name="MapType">RGB</string>
+			<varlist name="MipMaps">
+				<int name="Step">2</int>
+				<int name="Max">8</int>
+			</varlist>
+		</varlist>
+	</varlist>
+	<varlist name="Climates">
+		<varlist name="Temperate (basic)">
+			<string name="Filename">C:\Users\MAXIMILI\L3DT\Resources\Pro 16.05.3.1 x64\Climates\temperate26\Temperate26-basic.cli.xml</string>
+		</varlist>
+		<varlist name="Debug Grounds">
+			<string name="Filename">C:\Users\MAXIMILI\L3DT\Resources\Pro 16.05.3.1 x64\Climates\debuggrounds\debuggrounds.cli.xml</string>
+		</varlist>
+	</varlist>
+</varlist>
